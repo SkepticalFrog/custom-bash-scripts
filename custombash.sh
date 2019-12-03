@@ -47,6 +47,8 @@ function upup () {
 	sudo apt update && sudo apt upgrade -y
 }
 
+# Create dir and move into it
+
 function mkcd () {
    mkdir -p "$1"
    cd "$1"
